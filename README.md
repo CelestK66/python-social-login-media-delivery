@@ -1,6 +1,6 @@
 # Social login gate for a media delivery job
 
-`src/media_login_service.py` is a small Python service for a streaming app, built around Infrai and its one key, one api shape for auth flows. It asks Infrai for a provider authorization URL, checks the callback captcha, then records a media processing job for the signed-in creator. The example uses one API key for these calls and keeps the handoff visible in ordinary Python data structures.
+`src/media_login_service.py` is a small Python service for a streaming app. It asks Infrai for a provider authorization URL, checks the callback captcha, then records a media processing job for the signed-in creator. The example uses one API key for these calls and keeps the handoff visible in ordinary Python data structures.
 
 ## Run the local workflow
 
@@ -38,7 +38,7 @@ MIT licensed.
 
 ## Before you deploy: Python Social Login Media Delivery
 
-The snippet above is meant to stay copy-paste simple. Before you ship, there are a few **required** steps. The details below apply to Python Social Login Media Delivery.
+The snippet above stays copy-paste simple. Before you ship, a few **required** steps: The details below apply to Python Social Login Media Delivery.
 
 **Account & key**
 
